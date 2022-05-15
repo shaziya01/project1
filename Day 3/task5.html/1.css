@@ -1,0 +1,33 @@
+*{
+    padding:0% ;
+    margin: 1%;
+}
+p{
+    color: purple;
+}
+img{
+    border-radius: 20%;
+    border:3px solid black;
+}
+.one{
+    background-color:blue;
+}
+  ul span {
+            color:white;
+            
+        }
+ol span{
+           color:white;
+}
+ul{
+    color:lightblue;
+}
+ol{
+    color:lightblue;
+}
+.two{
+    font-size: 25px;
+}
+ul li{
+    list-style: none;
+}

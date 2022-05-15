@@ -1,0 +1,6 @@
+
+.two table,.two th,.two td{
+    border-color: 2px solid red;
+    border-style:solid;
+    border-color: red;
+}

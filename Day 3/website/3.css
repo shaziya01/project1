@@ -1,0 +1,33 @@
+h1{
+    font-size: 60px;
+    margin: 50px;
+    text-decoration-line: underline;
+}
+h2{
+    font-size: 50px;
+    color:blue;
+    margin: 30px;
+}
+body{
+   background-image: url('bg3.jpg');
+}
+.one img{
+    margin-left: 50%;
+}
+p{
+    font-size: 30px;
+    
+}
+img{
+    align-items: center;
+    width: 45%;
+    padding: 30px;
+
+}
+a ,h3{
+    font-size: 35px;
+}
+.three p{
+    background-color: lightblue;
+}
+
