@@ -1,0 +1,304 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a183d;
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #211640;
+    padding: 40px 40px 40px 40px;
+    /* padding-bottom: 100px; */
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+.one ul {
+    display: flex;
+    color: white;
+    list-style-type: none;
+}
+
+.one {
+    background-color: #211640;
+    /* padding-bottom: 100px; */
+}
+
+.two {
+    text-align: end;
+    background-color: #4c4c4c;
+    /* padding: 5px; */
+    margin: 0px 50px 0px 50px;
+    /* margin-bottom: 10px; */
+
+}
+
+.two button {
+    margin: 15px 40px 15px 0px;
+    padding: 8px 13px 8px 13px;
+    border-radius: 0%;
+    background-color: black;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
+
+.row2 .col-1 {
+    /* background: red; */
+    margin: 20px;
+    padding: 0PX 10PX;
+}
+
+.nine h1,
+.nine img {
+    margin-top: 90px;
+
+}
+
+span {
+    /* font-size: 70px */
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.three {
+    color: white;
+    padding-top: 30px;
+}
+
+button {
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 25px 40px 25px 40px;
+    border-radius: 40px;
+    color: white;
+}
+
+.five {
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 80px;
+
+}
+
+.five h3 {
+    margin: 40px 0px 0px 60px;
+}
+
+.five p {
+    /* margin: 0px 50px 0px 0px; */
+}
+
+.six p,
+.six button {
+
+    margin-left: 320px;
+    margin-right: 120px;
+    font-size: 20px;
+    color: gray;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+.seven p {
+    color: gray;
+    width: 330px;
+    margin-bottom: 100px;
+
+}
+
+.row {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+
+.seven h2 {
+    color: white;
+    font-size: 30px;
+    padding: 30px 30px 30px 0px;
+}
+
+.eight {
+    background-color: white;
+    width: 100vw;
+
+}
+
+.eight p {
+    color: #0a183d;
+    margin-left: 80px;
+    padding-top: 80px;
+    width: 450px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+li a {
+    padding: 14px 16px;
+}
+
+.hi-icon {
+    position: relative;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    background: #fc0254;
+    /* margin-bottom: 25px;
+    margin-left: 55px;
+    margin-top: 40px; */
+}
+
+.seven img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.row4 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: white;
+    padding-bottom: 90px;
+}
+
+.row3 {
+    display: flex;
+}
+
+.row4 img {
+    margin: 0px 20px 0px 20px;
+    border-radius: 40px;
+}
+
+.row4 p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 22px;
+}
+
+.row5 {
+    display: flex;
+}
+
+.col-7 {
+    list-style: none;
+    background: #1c294a;
+    padding: 100px 100px 100px 100px;
+    border-radius: 42px;
+    color: white;
+    width: 35vw;
+}
+
+.col-7 li {
+    padding: 13px 13px 13px 13px;
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.row5 h1 {
+    color: white;
+}
+
+.row5 h2 {
+    color: #fc0254;
+    padding: 20px 0px 20px 0px;
+}
+
+.row5 p {
+    color: gray;
+}
+
+.col-7 {
+    margin-left: 70px;
+}
+
+.row5 {
+    /* margin-left: 100px; */
+    margin: 80px 100px;
+}
+
+.eleven {
+    background-color: white;
+}
+
+.eleven h1 {
+    font-size: 65px;
+}
+
+.row6 {
+    display: flex;
+    margin: 0px 120px 0px 120px;
+    padding: 100px 0px 100px 0px;
+}
+
+.row6 p {
+    padding-left: 30px;
+    color: gray;
+    font-size: 18px;
+}
+
+.twelve {
+    background-color: white;
+}
+
+.row7 {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.row7 img {
+    border-radius: 50%;
+    margin: 0px 60px 0px 60px;
+}
+
+.row7 h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #0a183d;
+}
+
+.row8 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.one1 {
+    background-color: #0a183d;
+    margin: 100px 40px 100px 40px;
+}
+
+.one1 h2 span {
+    color: gray;
+}
+
+.row8 h4 {
+    color: gray;
+    padding: 10px;
+}
+
+.row8 h2 {
+    padding: 10px;
+}
