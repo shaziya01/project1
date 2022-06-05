@@ -1,0 +1,201 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-around;
+    height: 7.5rem;
+    align-items: center;
+}
+
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+    margin-right: 2.5rem;
+}
+
+.list {
+    display: flex;
+}
+
+.list div {
+    padding: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+}
+.list div:hover {
+    color: red;
+    cursor: pointer;
+}
+.button button {
+    padding: 1.25rem 1.75rem;
+    border-radius: 1.875rem;
+    background-color: red;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    background-color: lightcoral;
+
+    width: 80%vw;
+    height: 25rem;
+    font-family: Brush Script MT;
+    align-items: center;
+    padding: 2.5rem;
+}
+
+.col-2 {
+    padding: 0px 0px 0px 160px;
+    font-size: 38px;
+}
+
+.col-3 {
+    font-size: 2.375rem;
+    background-color: aquamarine;
+    height: 18.75rem;
+    text-align: center;
+    font-family: Goudy Old Style;
+    padding: 7.5rem 2.5rem;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 1.25rem;
+    font-style: oblique;
+    color: brown;
+    font-size: 2.813rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* padding: 0rem 0rem 0rem 4.375rem;  */
+}
+
+.card {
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+    width: 300px;
+    height: 350px;
+    margin: 2.5rem 0rem 0rem 3.75rem;
+    text-align: center;
+
+}
+
+.img p {
+    /* padding: 0.625rem 2.5rem; */
+}
+
+.main2 {
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    margin: 10rem 0rem 0rem 0rem;
+    padding: 3.75rem 3.125rem;
+}
+
+.list2 button {
+
+    border-radius: 1.875rem;
+    background-color: red;
+    padding: 1rem 1.125rem;
+    margin: 1.875rem;
+}
+#check{ 
+    display: none;
+}
+.checkbtn{
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    
+    .checkbtn{
+        font-size: 1.875rem;
+        color: white;
+        /* float: right; */
+        line-height: 5rem;
+        margin-right: 2.5rem;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+    .cards{
+        /* flex-direction: column; */
+    }
+    .row{
+        flex-direction: column-reverse;
+        /* height:37.5rem;
+        text-align: center; */
+   }
+   .col-2{
+       padding: 30px 30px 50px 30px;
+    
+     
+   }
+   .col-3{
+       height:28rem ;
+       width: 100%;
+   }
+
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 1.875rem;
+        padding-left: 3.125rem;
+
+    }
+    nav .list div a{
+        font-size: 1;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    nav .list{
+        /* position: fixed; */
+        width: 100%;
+        height: 100vh;
+        /* background: #2c3e50; */
+        top: 5rem;
+        left: 0;
+        text-align: center;
+        transition: all.5s;
+    }
+  
+     nav .list div{
+        /* display: block; */
+        margin: 3.125rem 0;
+        line-height: 1.875rem;
+    }
+    nav .list div a{
+        font-size: 1.25rem;
+    }
+    nav .list div a:hover{
+        background: none;
+        color: red;
+    }
+    #check:checked ~.list{
+        left: 0;
+    }
+  
+}
+@media (max-width: 700px){
+    .cards{
+      
+    }
+}
+
+

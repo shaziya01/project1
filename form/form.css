@@ -1,0 +1,44 @@
+.one{
+    background-color: #fc0254;
+    width: 40%;
+    padding: 50px 40px 50px 40px;
+    color: white;
+    margin: 0px 200px 200px 300px;  
+}
+body{
+    background-color: gray;
+}
+.one form{
+    background-color:rgba(0, 0, 0, .5) ;
+    padding: 60px 60px;
+    width: 82%;
+}
+.one td{
+    font-size: 20px;
+    padding: 4px 4px;
+}
+input[type=text] 
+{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 30px;
+}
+input[type=text]:hover{
+    background-color: lightblue;
+} 
+#one{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 100%;
+    background-color: white;
+    height: 40px;
+}
+.one table{
+     padding: 20px 20px;
+}
+#one:hover{
+    background-color: lightblue;
+}
